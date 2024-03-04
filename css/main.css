@@ -1,0 +1,44 @@
+/* Algemene stijl voor de body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Stijl voor de header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Stijl voor de knoppen */
+button {
+    background-color: #4CAF50; /* Groene kleur */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Stijl voor de webcam-container */
+.webcam-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Stijl voor de label-container */
+.label-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
